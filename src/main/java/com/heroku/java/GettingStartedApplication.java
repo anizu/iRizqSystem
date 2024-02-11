@@ -51,10 +51,10 @@ public class GettingStartedApplication {
         return "user/customerregister";
     }
 
-    @Bean
-    public BCryptPasswordEncoder bCryptPasswordEncoder() {
-        return new BCryptPasswordEncoder();
-    }
+    // @Bean
+    // public BCryptPasswordEncoder bCryptPasswordEncoder() {
+    //     return new BCryptPasswordEncoder();
+    // }
 
     public static void main(String[] args) {
         SpringApplication.run(GettingStartedApplication.class, args);
